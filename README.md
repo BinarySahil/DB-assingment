@@ -4,4 +4,4 @@ The relationship between Product and Product in this e-commerce is a one-to-many
 Q2.
 We can use Foreign key constraints and Data Validation to ensure the "Product" table has valid category assigned.
 Foreign key constraints:You can create foreign key constraints on the "category_id" field in the "Item" table. This parameter will refer to the primary key ("id") of the "product_category" table. This will prevent products with incorrect Category ID from being added to the Product List.
- Data validation: Data validation can be used on the application side to ensure that only category IDs are entered for new products. This can be done from the drop-down menu or from the list of valid categories.
+ Data validation: Data validation can be used on the application side to ensure that only category IDs are entered for new products. This can be done from the drop-down menu or from the list of valid categories. 
